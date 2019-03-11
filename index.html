@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feedr @ GA</title>
+    <link rel="stylesheet" href="styles/normalize.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="styles/html5bp.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css" media="screen" charset="utf-8">
+</head>
+<body>
+    
+    <div id="main_loader" class="main_loader" ></div>
+
+    <header>
+      <section class="container">
+        <a href="#"><h1>Feedr</h1></a>
+        <nav>
+          <ul>
+            <li><a id="current_source" href="#">
+            </a>
+              <ul>
+                  <li><a id="newsapi" href="#">Very good News</a></li>
+                  <li><a id="guardianapis"  href="#">The Guardian</a></li>
+              </ul>
+            </li>
+          </ul>
+          <section id="search">
+            <input type="text" name="name" value="">
+            <a href="#"><img src="images/search.png" alt="" /></a>
+          </section>
+        </nav>
+        <div class="clearfix"></div>
+      </section>
+    </header>
+    <div id="popUp" class="loader hidden">
+      <a href="#" class="closePopUp">X</a>
+      <div id="article_detail" class="container">
+        <h1 id="detail_title">
+        </h1>
+        <p id="detail_content">
+        </p>
+      </div>
+    </div>
+
+    <section id="main" class="container">
+    </section>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
